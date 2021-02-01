@@ -2,7 +2,7 @@ class Food{
     constructor(){
         this.foodStock = 0;
         this.lastFed;
-        this.milkImg = loadImage("images/Milk.png");
+        this.milkImg = loadImage("../Images/Milk.png");
     }
 
     //read food stock from database
